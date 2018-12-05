@@ -2,13 +2,18 @@
 <html lang="en" dir="ltr">
 
 <head>
+  <link rel="stylesheet" href="styles.css">
   <meta charset="utf-8">
   <title>Title</title>
 </head>
 
 <body>
+
+  <!-- title area -->
   <h1 id="Title">Survey Form</h1>
   <p id="description">freeCodeCamp Survey Form</p>
+
+  <!--  survey form section -->
   <form id="survey-form" action="index.html" method="post">
     Name: <input id="Name" type="text" name="name" placeholder="Full Name" value="" min="" max="" required><br>
     Email: <input id="Email" type="text" name="email" placeholder="Email Address" value="" min="" max="" required><br>
@@ -24,7 +29,9 @@
     <input type="radio" name="option" value="Email">Email<br>
   </form>
   <br>
-  <form action="textarea">
+
+  <!-- text area to enter text -->
+  <form class="textarea"action="textarea">
     <textarea name="textarea" rows="10" cols="80" placeholder="Enter Comments Here"></textarea>
     <br>
     <input type="submit">
