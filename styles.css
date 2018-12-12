@@ -1,19 +1,27 @@
-body  {
+body {
   background: grey;
   margin: auto;
   text-align: center;
 }
 
-#survey-form  {
+#survey-form {
   display: block;
   margin: auto;
   max-width: 60%;
   padding: 15px;
   background: white;
-  /* text-align: center; */
+  text-align: center;
 }
-#survey-form label  {
+
+.survey-label {
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+}
+
+.survey-label label{
   text-align: left;
+  display: block;
 }
 
 .textarea {
