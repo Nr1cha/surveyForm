@@ -40,7 +40,8 @@
       name="number" 
       placeholder="Phone Number" 
       required
-      maxlength="11"
+      min="1"
+      max="11"
     />
     <br>
     <br>
@@ -72,14 +73,15 @@
     <input type="checkbox" name="option" value="name">Name <br>
     <input type="checkbox" name="option" value="Number">phone number<br>
     <input type="checkbox" name="option" value="email">Email <br>
-  </form>
-  <br>
-  <!-- text area to enter text -->
+      <!-- text area to enter text -->
   <form class="textarea"action="textarea">
     <textarea name="textarea" rows="10" cols="60" placeholder="Enter Comments Here"></textarea>
     <br>
-    <input type="submit">
+    <input id="submit" type="submit">
   </form>
+  </form>
+  <br>
+
 
 
 </body>

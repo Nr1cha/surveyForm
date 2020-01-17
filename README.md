@@ -5,15 +5,15 @@ Fulfill the below user stories and get all of the tests to pass. Give it your ow
 
 You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
 
-1. I can see a title with id="title" in H1 sized text.
+<!-- 1. I can see a title with id="title" in H1 sized text. -->
 
-2. I can see a short explanation with id="description" in P sized text.
+<!-- 2. I can see a short explanation with id="description" in P sized text. -->
 
-3. I can see a form with id="survey-form".
+<!-- 3. I can see a form with id="survey-form". -->
 
-4. Inside the form element, I am required to enter my name in a field with id="name".
+<!-- 4. Inside the form element, I am required to enter my name in a field with id="name". -->
 
-5. Inside the form element, I am required to enter an email in a field with id="email".
+<!-- 5. Inside the form element, I am required to enter an email in a field with id="email". -->
 
 6. If I enter an email that is not formatted correctly, I will see an HTML5 validation error.
 
