@@ -4,52 +4,80 @@
 <head>
   <link rel="stylesheet" href="styles.css">
   <meta charset="utf-8">
-  <title>Title</title>
+  <h1 id="Title">Survey Form</h1>
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-  <!-- title area -->
-  <h1 id="Title">Survey Form</h1>
+  <!-- description area -->
   <p id="description">freeCodeCamp Survey Form</p>
 
   <!--  survey form section -->
   <form id="survey-form" action="index.html" method="post">
-    Name: <input id="Name" type="text" name="name" placeholder="Full Name" value="" min="" max="" required><br>
-    Email: <input id="Email" type="text" name="email" placeholder="Email Address" value="" min="" max="" required><br>
-    Number: <input id="Number" type="text" name="number" placeholder="Phone Number" min="5" max="100" required><br>
+    <label id="name-label" for="name-label">Name:</label> 
+    <input
+      id="Name" 
+      type="text" 
+      name="name" 
+      placeholder="Full Name" 
+      required
+    />
+    <br>
+    <label id='email-label' for="email">Email:</label>
+    <input
+      id="Email" 
+      type="email" 
+      name="email" 
+      placeholder="Email Address" 
+      required
+    />
+    <br>
+    <label id="number-label" for="number-label" maxlength="11" >Number:</label> 
+    <input
+      id="Number" 
+      type="text" 
+      name="number" 
+      placeholder="Phone Number" 
+      required
+      maxlength="11"
+    />
+    <br>
+    <br>
+    <!-- submit form button -->
     <input type="submit" value="submit"><br><br>
+    <!-- dropdown -->
     <select id="dropdown" name="Test">
       <option value="Name">Name</option>
       <option value="Email">Email</option>
-      <option value="Number">Number</option>
-    </select><br><br>
-<<<<<<< HEAD
+      <option value="Number">phone number</option>
+    </select><br>
+<!-- <<<<<<< HEAD -->
     <div class="survey-label">
+    <p>first radial</p>
     <label><input type="radio" name="option" value="Name">Name<br></label>
-    <label><input type="radio" name="option" value="Number">Number<br></label>
-    <label><input type="radio" name="option" value="Email">Email<br><br></label>
-
+    <label><input type="radio" name="option" value="Number">phone number<br></label>
+    <label><input type="radio" name="option" value="Email">Email<br></label>
+    <p>bellow is for checkboxes</p>
     <label><input type="checkbox" name="option" value="Name">Name<br></label>
-    <label><input type="checkbox" name="option" value="Number">Number<br></label>
+    <label><input type="checkbox" name="option" value="Number">phone number<br></label>
     <label><input type="checkbox" name="option" value="Email">Email<br></label>
   </div>
-=======
+  <p>bellow is for radial selection</p>
+<!-- ======= -->
     <input type="radio" name="option" value="Name">Name<br>
-    <input type="radio" name="option" value="Number">Number<br>
+    <input type="radio" name="option" value="Number">phone number<br>
     <input type="radio" name="option" value="Email">Email<br>
     <!--bellow is for checkboxes-->
+    <p>bellow is for checkboxes</p>
     <input type="checkbox" name="option" value="name">Name <br>
-    <input type="checkbox" name="option" value="Number">number <br>
+    <input type="checkbox" name="option" value="Number">phone number<br>
     <input type="checkbox" name="option" value="email">Email <br>
->>>>>>> 8b5abca19cc38d3aea0b1ee77c91065f501fdb72
   </form>
   <br>
-
   <!-- text area to enter text -->
   <form class="textarea"action="textarea">
-    <textarea name="textarea" rows="10" cols="80" placeholder="Enter Comments Here"></textarea>
+    <textarea name="textarea" rows="10" cols="60" placeholder="Enter Comments Here"></textarea>
     <br>
     <input type="submit">
   </form>
